@@ -11,24 +11,48 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>My Goals for the Year</h1>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learn HTML</a> 
+            </li>
+            <li>
+                <a href="#vacation">Planning a vacation</a>
+            </li>
+        </ul> 
+    </nav>
+</header>
     
     <hr>
-
-    <h2>I'm Ready to Learn HTML</h2>
-    <p>This is my first web page.</p>
-    
-    <h1>My Daily Schedule</h1>
-    <p>Let me tell you how:</p>
+    <main>
+    <section id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is my first web page.</p>
+        <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+        <figure>
+            <figcaption>
+                An Example if HTML5 code
+            </figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure> 
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
         <ol>
             <li>...I learm more about web dev.</li>
             <li>...I plan out my schedule.</li>
             <li>...I use resources from <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
         </ol>
-        
+    </section>  
         
     <hr>
+
     
+    <section id="vacation">
     <h2>I Am Also Planning a Vacation</h2>
     <p>I've been working hard and <em>really need a getaway</em>.</p>
     <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
@@ -36,7 +60,14 @@
     <h3>Place I'd Like to Visit</h3>
     <ul>
     
-       <li> <p>I've heard good things about the Caribbean.</p> </li>
+       <li> <p>I've heard good things about the Caribbean.</p>
+        <figure>
+            <img src="img/caribbean.jpg" alt="Caribbean Beach" title="I want to visit a caribbean beach." width="400" height="225" loading="lazy">
+            <figcaption>
+                Caribbean Beach Getaway
+            </figcaption>
+        </figure> 
+    </li>
         <li>
             <p>I've heard good things about going here:</p>
             <address>
@@ -44,6 +75,12 @@
                 Bahia Petempich Puerto Morelsos, Mexico<br>
                 Colonia Morelos, Mexico 77580
            </address>
+           <figure>
+           <img src="img/vacation.jpg" alt="Cancun vacation"  title="It's a 5 o'clock Somewhere!" width="400" height="267" loading="lazy">
+           <figcaption>
+                A Caribbean Vacation Image
+           </figcaption>
+        </figure>
         </li>
     
        
@@ -52,19 +89,27 @@
     
    <!-- TODO: Add more places -->
    <h3>Places I want to Avoid</h3>
-    <dl> 
-        <dt>North Pole</dt>
-        <dd>I hear this is <strong>cold</strong>!</dd>
+        <dl> 
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
 
-        <dt>South Pole</dt>
-        <dd>This is also cold.</dd>
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
 
-        <dt>Moutain Tops</dt>
-        <dd>These are also cold.</dd>
-    </dl>
-
+            <dt>Moutain Tops</dt>
+            <dd>These are also cold.</dd>
+        </dl>
+        </section>
+    </main>
     <hr>
-    &lt;&lt;&lt; &copy; Vivian Yam &gt;&gt;&gt;
+    <footer> 
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Vivian Yam</a> &gt;&gt;&gt;
+        </p>
+        <p> 
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
 </body>
 
 </html>
